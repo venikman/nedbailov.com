@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://admiring-leakey-c26b32.netlify.com/* http://www.nedbailov.com/:splat 301!
