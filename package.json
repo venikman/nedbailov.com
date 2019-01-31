@@ -9,7 +9,8 @@
     "url": "https://github.com/venikman/nedbailov.com"
   },
   "files": [
-    "src"
+    "src",
+    "public"
   ],
   "bugs": {
     "url": "https://github.com/venikman/nedbailov.com/issues"
