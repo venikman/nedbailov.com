@@ -36,7 +36,7 @@ class App extends Component {
             <Router>
                 <Switch>
                     <Route path="/" exact component={Index} />
-                    <Route path="/about" component={Mark} />
+                    <Route path="nedbailov.com/about" component={Mark} />
                     <Route component={() => '404'}/>
                 </Switch>
             </Router>
