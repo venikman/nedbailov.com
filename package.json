@@ -10,7 +10,8 @@
   },
   "files": [
     "src",
-    "public"
+    "public",
+    "_redirects"
   ],
   "bugs": {
     "url": "https://github.com/venikman/nedbailov.com/issues"
