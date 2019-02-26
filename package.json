@@ -9,15 +9,14 @@
     "url": "https://github.com/venikman/nedbailov.com"
   },
   "files": [
-    "src",
-    "public"
+    "src"
   ],
   "bugs": {
     "url": "https://github.com/venikman/nedbailov.com/issues"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build" : "parcel build index.html"
+    "start": "parcel src/index.html",
+    "build" : "parcel build src/index.html"
   },
   "dependencies": {
     "react": "^16.8.1",
