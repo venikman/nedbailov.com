@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build" : "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "test": "xo"
   },
   "dependencies": {
     "react": "^16.8.1",
@@ -24,20 +25,11 @@
   },
   "devDependencies": {
     "ava": "^1.1.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "eslint-config-tidy": "^0.7.0",
     "eslint-config-tidy-react": "^0.3.1",
     "eslint-plugin-react": "^7.12.4",
     "parcel-bundler": "^1.11.0",
     "xo": "^0.24.0"
-  },
-  "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
   },
   "xo": {
     "extend": [
